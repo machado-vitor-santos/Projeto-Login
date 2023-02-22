@@ -10,6 +10,52 @@ Grandes telas: acima de 1200px;
 Print (impressora).
 */
 
+/* Uso de Media Query e midia features*/
 @media screen and (min-width: 768px) {
-  
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 80vw ;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%
+        /* propriedade float do CSS determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, onde textos e elementos em linha irão se posicionar ao seu redor.
+        Um elemento flutuante é um tipo de elemento cujo valor de float é diferente de none.
+
+        obs. por esta razão foi aplicado o display block as divs imagem e login anteriormente*/
+    }
+
+    div#formulario {
+        width: 70%;
+        height: 100%;
+        float: right;
+    }
 }
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login {
+        width: 950px;
+    }
+
+    div#imagem {
+        float:left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 50%;
+    }
+
+}
+    

@@ -40,10 +40,12 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    transition: width 0.3s, height 0.3s; /* animação, mostra um efeito ao transicionar a tela*/
 }
 
 div#imagem{
-    display: block;
+    display: block; /* para poder aplicar o float depois ao modificar o tamanho da tela e configurar a midia query*/
     background: var(--cor2) url(../imagens/imagem-tela-login.jpg) no-repeat top center;
     background-size: cover;
 
@@ -51,14 +53,6 @@ div#imagem{
 }
 
 div#formulario {
-    display: block;
+    display: block;/* para poder aplicar o float depois ao modificar o tamanho da tela e configurar a midia query*/
     padding: 10px;
-}
-
-div#formulario h1 {
-    text-align: center;
-}
-
-div#formulario p {
-    text-align: justify;
 }
