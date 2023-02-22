@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Typical Device Breakpoints
+/* Typical Device Breakpoints 
 -----------------------------
 Pequenas telas: até 600px;
 Celular: de 600px até 768px;
@@ -8,6 +8,12 @@ Tablet: 768px até 992px;
 Desktop: 992px até 1200px;
 Grandes telas: acima de 1200px;
 Print (impressora).
+
+(assim como os positions portrait e landscape)
+Ex:
+@media screeen and (orientation:portrait){
+
+    }
 */
 
 /* Uso de Media Query e midia features*/
@@ -41,7 +47,7 @@ Print (impressora).
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
+
     section#login {
         width: 950px;
     }
