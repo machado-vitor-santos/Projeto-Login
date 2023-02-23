@@ -42,6 +42,7 @@ section#login {
     transform: translate(-50%, -50%);
 
     transition: width 0.3s, height 0.3s; /* animação, mostra um efeito ao transicionar a tela*/
+    transition-timing-function: ease; /*Suaviza o efeito de transição*/
 }
 
 div#imagem{
